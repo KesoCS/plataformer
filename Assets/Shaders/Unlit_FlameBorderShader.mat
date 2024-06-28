@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_FlameBorderShader
+  m_Shader: {fileID: 4800000, guid: f2345abcb5a8c574a94c0c2c3237fae4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 081ee12e31907294dbc26ba06d17d91d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BorderWidth: 0.0309
+    - _DistortionSpeed: 6.69
+    - _DistortionStrength: 0.093
+    - _FlameAmplitude1: 1
+    - _FlameAmplitude2: 0.5
+    - _FlameAmplitude3: 0.46
+    - _FlameFrequency: 1.68
+    - _FlameFrequency1: 1.43
+    - _FlameFrequency2: 3.57
+    - _FlameFrequency3: 4
+    - _FlameMovementSpeed: 0.1
+    - _FlameSpeed: 2.34
+    m_Colors:
+    - _BorderColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlameColor: {r: 1, g: 0.5, b: 0, a: 1}
+  m_BuildTextureStacks: []
